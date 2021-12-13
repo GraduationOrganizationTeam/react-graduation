@@ -52,12 +52,16 @@ class App extends React.Component {
     }
 
     return (
-    <div>
-      <div className="App">  Número de Alunos Cadastrados: {list_alunos.length} </div>
-      <div className="App">  Número de Avaliacoes Feitas: {list_eval.length} </div>
-      <div className="App">  Número de Disciplinas Cadastradas: {list_disciplinas.length} </div>
-      <div className="App">  Número de Comentários Feitos : {list_comentarios.length} </div>
-    </div>  
+    <html className="contato">
+      <h1>Números do Site</h1>
+
+      <div class="container">
+      <h2 className="contato2">  Alunos Cadastrados: {list_alunos.length} </h2>
+      <h2 className="contato2">  Avaliacoes Feitas: {list_eval.length} </h2>
+      <h2 className="contato2">  Disciplinas Cadastradas: {list_disciplinas.length} </h2>
+      <h2 className="contato2">  Comentários Feitos : {list_comentarios.length} </h2>
+      </div>
+    </html>  
     );
   }
 }
